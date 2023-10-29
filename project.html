@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project Management Interface</title>
+  <link rel="stylesheet" href="style2.css">
+  <script src="script2.js"></script>
+</head>
+<body>
+
+  <div class="left-column">
+    <div class="form-container">
+      <h2>Project Details</h2>
+      <label for="projectName">Project Name:</label>
+      <input type="text" id="projectName" placeholder="Enter project name">
+
+      <label for="userName">User Name:</label>
+      <input type="text" id="userName" placeholder="Enter user name">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password">
+
+      <button onclick="addNewProject()">Add New Project</button>
+    </div>
+  </div>
+
+  <div class="right-column">
+    <div class="progress-container">
+      <h2>Project Details</h2>
+      <table class="project-table">
+        <thead>
+          <tr>
+            <th>Project Name</th>
+            <th>User Name</th>
+            <th>Password</th>
+            <th>Task Progress</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="projects"></tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

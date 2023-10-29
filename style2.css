@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .left-column, .right-column {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  .form-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .progress-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  .progress-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .progress-container select {
+    padding: 10px;
+    width: 100%;
+  }
+  .project-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .project-table th, .project-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
